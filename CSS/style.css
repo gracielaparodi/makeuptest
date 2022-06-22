@@ -1,0 +1,350 @@
+/*Fondo*/
+body {
+  background-color: rgb(250, 225, 218);
+}
+
+/*Banner*/
+.Banner {
+  text-align: center;
+  width: 100%;
+}
+
+/* menu */
+.menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+/* items del menu */
+.menu ul li {
+  background-color: #ff6593;
+}
+
+/* enlaces del menu */
+.menu ul a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 10px;
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
+}
+
+/* items del menu */
+.menu ul li {
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+/* efecto al pasar el ratón por los items del menu */
+.menu ul li:hover {
+  background: #ff6593;
+}
+
+/*alineacion de imagenes de submenu*/
+.nav2 {
+  width: autopx;
+  margin: 100px;
+  text-align: center;
+}
+
+/*Alineacion de productos*/
+.Prod {
+  width: auto;
+  margin: 100px;
+  text-align: center;
+}
+
+
+/*Link para volver arriba*/
+#Arriba {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  text-align: right
+}
+
+a:link {
+  color: #fff;
+}
+
+a:hover {
+  color: #ff6593;
+}
+
+a:visited {
+  color: deeppink;
+}
+
+a:active {
+  color: salmon;
+}
+
+/*Redes*/
+.redes {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  text-align: right
+}
+
+
+/*Imagenes*/
+.tipos {
+  width: auto;
+  height: 600px;
+}
+
+.tipos {
+  display: flex;
+  justify-content: center
+}
+
+.rosaceaa {
+  display: flex;
+  justify-content: center
+}
+
+.dia {
+  display: flex;
+  justify-content: center
+}
+
+.noche {
+  display: flex;
+  justify-content: center
+}
+
+.brochasimg {
+  width: 300px;
+  height: auto;
+}
+
+/*Textos*/
+.textoskincare {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(173, 117, 117);
+  text-align: justify;
+  font-size: medium;
+}
+
+.textotipos {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(173, 117, 117);
+  text-align: justify;
+  font-size: medium;
+}
+
+.textotipos2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(173, 117, 117);
+  text-align: justify;
+  font-size: medium;
+}
+
+.rosacea {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(173, 117, 117);
+  text-align: justify;
+  font-size: medium;
+}
+
+.rutina {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(173, 117, 117);
+  text-align: justify;
+  font-size: medium;
+}
+
+.productos {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(173, 117, 117);
+  text-align: justify;
+  font-size: medium;
+}
+
+.textointro {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(173, 117, 117);
+  text-align: justify;
+  font-size: large;
+}
+
+.brochastxt {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(173, 117, 117);
+  text-align: left;
+  font-size: large;
+  margin-top: 5px;
+}
+
+.brochastxtv {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(173, 117, 117);
+  text-align: justify;
+  font-size: large;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.nprod {
+  text-align: center;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ff6593;
+  text-align: center;
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(173, 117, 117);
+}
+
+h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ff6593;
+}
+
+.Intro {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 135, 175);
+  text-align: center;
+  font-size: x-large;
+}
+
+/*Grid Videos Tutorial*/
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.div2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.div3 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.div4 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.div5 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.div6 {
+  grid-area: 3 / 2 / 4 / 3;
+}
+
+/*Grid Productos*/
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+
+.div11 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.div22 {
+  grid-area: 1 / 2 / 2 / 1;
+}
+
+.div33 {
+  grid-area: 2 / 2 / 1 / 1;
+}
+
+.div44 {
+  grid-area: 2 / 1 / 1/ 2;
+}
+
+/*Flexbox brochas*/
+
+.brochasr {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-top: 15px;
+}
+
+.brochas1 {
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.brochas2 {
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.brochas3 {
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.brochas4 {
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.brochas5 {
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/*Footer*/
+
+footer {
+  position: relative;
+  text-align: right;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 16px;
+}
+
+/*Box model*/
+.mapa {
+  width: 600px;
+  border: 3px solid #ff6593;
+  padding: 10px;
+  margin: 10px;
+}
